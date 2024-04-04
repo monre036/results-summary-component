@@ -22,4 +22,39 @@ ul {
 body {
     margin: 0;
     font-family: sans-serif;
+    color: white;
 }
+
+.result {
+    width: 100%;
+    height: 356px;
+    background-image: linear-gradient(#6943FF, #2F2CE9);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 1px;
+    text-align: center;
+    padding-inline: 57px;
+}
+
+.result__result {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: lightblue;
+}
+
+.result__circle {
+    background-image: linear-gradient(#6943FF, #2F2CE9);
+    border-radius: 50%;
+    margin-inline: auto;
+    width: 140px;
+    height: 140px;
+}
+
+.result__score {}
+
+.result__total {}
+
+.result__valuation {}
+
+.result__text {}
